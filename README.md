@@ -29,7 +29,7 @@ ng version
 ### Installation 
 Clone the repository and install dependencies:
 ``` bash
-git clone https://github.com/<your-username>/snapface.git
+git clone https://github.com/MarieLeLamer/angular-course.git
 cd snapface
 npm install
 ```
@@ -55,3 +55,4 @@ It covers:
 - Using Angular services for data management
 - Navigating with Angular Router
 - Managing state with Observables
+
