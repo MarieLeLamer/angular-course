@@ -1,59 +1,57 @@
-# Snapface
+# 📷 Snapface - Angular Course Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
+This project was built as part of a course to learn **Angular** by creating a simple application called **Snapface**.
 
-## Development server
+The goal of the project is to get hands-on practice with:
+- Angular components
+- Data binding (interpolation, property binding, event binding)
+- Directives and pipes
+- Services and dependency injection
+- Routing
+- Handling HTTP requests
 
-To start a local development server, run:
+---
 
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [Angular CLI](https://angular.io/cli)
+
+Check versions:
 ```bash
+node -v
+npm -v
+ng version
+```
+
+### Installation 
+Clone the repository and install dependencies:
+``` bash
+git clone https://github.com/<your-username>/snapface.git
+cd snapface
+npm install
+```
+
+### Development server
+Run the project locally:
+``` bash
 ng serve
 ```
+Navigate to http://localhost:4200
+The app will automatically reload if you change any source files.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🛠️ Built With
+- Angular
+- TypeScript
+- RxJS
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📚 Learning Objective
+This project was made as part of my learning journey with Angular.
+It covers:
+- Creating and managing Angular components
+- Communicating between components
+- Using Angular services for data management
+- Navigating with Angular Router
+- Managing state with Observables
