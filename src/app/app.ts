@@ -2,11 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { HeaderComponent } from './header-component/header-component';
 import { RouterOutlet } from '@angular/router';
 import { filter, interval, map, Observable, tap } from 'rxjs';
-import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, RouterOutlet, AsyncPipe],
+  imports: [HeaderComponent, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })

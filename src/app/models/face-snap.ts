@@ -2,16 +2,15 @@ import { SnapType } from "./snap-type.type";
 
 export class FaceSnap {
   location?: string;
-  id: string;
+  id!: number;
 
   constructor(
     public title: string,
     public description: string,
     public createdDate: Date,
     public snaps: number,
-    public imgUrl: string
+    public imageUrl: string
   ) {
-    this.id = crypto.randomUUID().substring(0, 8);
   }
 
   addSnap(): void {
